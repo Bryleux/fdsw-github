@@ -1,39 +1,100 @@
+/* Estilos generales */
 body {
   font-family: "Raleway", sans-serif;
 }
 
-/* Hero Section */
-
+/* Sección de Héroe */
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/photoal125.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 
-/* Mis trabajos */
+/* Estilos de párrafo con borde */
+.parrafo {
+  font-size: 18px;
+  color: transparent; /* Oculta el color del texto */
+  -webkit-text-stroke: 0.3px black; /* Aplica un borde blanco de 1px alrededor de cada letra funciona con navegador que use webkit*/
+  text-shadow:  0.3px black; /* Aplica un borde blanco de 1px alrededor de cada letra en navegador que lo admitan*/
+}
 
-#Mis-trabajos .image-top {
-  height: 250px;
+/* Proyectos */
+#Mis-proyectos .image-top {
+  height: 208px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* Contacto */
-
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
+/* Imagen de Cuppon Latam */
+#cuppon {
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-position: center;
 }
 
+/* Enlaces de contacto */
+.whatsapp-link, .linkedin-link, .gmail-link {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Estilos de enlace de WhatsApp bg green hover darkgreen */
+.whatsapp-link {
+  background-color: #0dcaf0;
+}
+
+.whatsapp-link:hover {
+  background-color: #0dcaf0;
+}
+
+.whatsapp-link i {
+  margin-right: 5px;
+}
+
+/* Estilos de enlace de LinkedIn bg #0077b5 hover #046293 */
+.linkedin-link {
+  background-color: #0dcaf0;
+}
+
+.linkedin-link:hover {
+  background-color: #0dcaf0;
+}
+
+.linkedin-link i {
+  margin-right: 5px;
+}
+
+/* Estilos de enlace de Gmail bg #db4437 hover #c13517*/
+.gmail-link {
+  background-color: #0dcaf0;
+}
+
+.gmail-link:hover {
+  background-color: #0dcaf0;
+}
+
+.gmail-link i {
+  margin-right: 5px;
+}
+
+/* Centro de la sección de contacto */
+.contactame {
+  text-align: center;
+}
+
+/* Nombre en laptops */
+.navbar-brand {
+  width: 290px;
+}
+
+/* Responsive: nombre en dispositivos móviles */
 @media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
+  .navbar-brand {
+      width: 250px;
   }
-
-  .navbar-brand{
-    width: 100px;
-  }
-
 }

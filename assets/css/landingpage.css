@@ -1,0 +1,55 @@
+.header{
+    height: 15em;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/Delicias\ Express\ -\ Tradicion\ en\ cada\ bocado.jpg");
+    padding: 1em;
+    font-size: 1em;
+}
+
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+    text-align: center;
+    height: 3em;
+    line-height: 9em;
+    color: red;
+}
+
+.header p{
+    margin: 0px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    height: 3em;
+    line-height: 10em;
+}
+
+body{
+    font-family: 'Helvetica', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.products{
+    width: 80%;
+    margin: auto;
+}
+
+.products td{
+    width: 50%;
+    margin: auto;
+}
+
+.products img{
+    width: 100%;
+    border: solid 1px red;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(145, 0, 0);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+

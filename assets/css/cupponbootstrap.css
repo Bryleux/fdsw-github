@@ -1,0 +1,97 @@
+/* Estilos generales del cuerpo del documento */
+body{
+    border: solid 1px black;
+    overflow-x: hidden;
+  }
+  
+  /* Definición de fuentes personalizadas */
+  @font-face{
+    font-family: 'Roboto-Light';
+    src:url(/Roboto/Roboto-Light.ttf);
+    font-weight: 300;
+  }
+
+  @font-face{
+    font-family: 'Roboto-Medium';
+    src:url(/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+  }
+
+  /* Estilos para elementos de tarjetas de productos */
+  .card-title, .card-subtitle, .card-text1, .lead1{
+    font-family: 'Roboto-Light';
+    font-weight: 300;
+  }
+
+  .lead{
+    font-family: 'Roboto-Medium';
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .card-text1{
+    font-size: 13px;
+  }
+
+  /* Estilos para el formulario de recepción de cupones */
+  .leyenda{
+    font-family: 'Roboto-Medium';
+    font-size: 21px;
+    color: #ffffff !important;
+  }
+
+  .boton{
+    font-family: 'Roboto-Medium' !important;
+    font-size: 16px !important;
+    color: #212529 !important;
+  }
+
+  /* Estilos para el pie de página */
+  .derechos{
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+    color: #707070 !important;
+  }
+
+  /* Estilos para los campos del formulario */
+  .form-name, .form-email, .form-text{
+    font-family: 'Roboto-Light' !important;
+    font-size: 16px !important;
+    color: #ffffff !important;
+  }
+
+  /* Estilos específicos para el título de la tarjeta */
+  .titulo{
+    color: #212529 !important;
+  }
+  
+  /* Estilos para subtítulos, precios y ubicaciones */
+  .subtitulo, .precio, .ubicacion{
+    color: #707070 !important;
+}
+
+/* Estilos para el descuento */
+.descuento{
+  color: #28A745 !important;
+}
+
+/* Estilos para el ícono del botón de alternar navegación */
+.navbar-toggler-icon{
+  color: #FFFFFF7F !important;
+}
+
+/* Estilos para el botón de alternar navegación */
+.navbar-toggler{
+  color: #FFFFFF80 !important;
+}
+
+/* Estilos para el cuerpo de la tarjeta */
+.card-body{
+  color: #ffffff !important;
+  border: #dddddd !important;
+}
+
+/* Estilos para el formulario */
+.formulario{
+  color: #28A745 !important;
+}

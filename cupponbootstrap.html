@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <!-- Metadatos, enlaces a hojas de estilo y otros elementos del encabezado -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuppon Bootstrap</title>
+  <!-- Hoja de estilos CSS para normalizar estilos entre navegadores -->
+<link rel="stylesheet" href="assets/css/normalize.css">
+<!-- Hoja de estilos personalizada -->
+<link rel="stylesheet" href="assets/css/cupponbootstrap.css">
+<!-- CSS de Font Awesome para usar sus iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- CSS de Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- CSS de Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Bootstrap JavaScript como Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Encabezado de la página, como la barra de navegación -->
+<header>
+<!-- Barra de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+   <!-- Contenedor de la barra de navegación -->
+  <div class="container-fluid">
+     <!-- Marca del sitio -->
+      <a class="navbar-brand me-auto ps-5" href="#">CUPPON LATAM</a>
+      <!-- Botón de navegación en dispositivos móviles -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end">
+            <!-- Elementos del menú -->
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+</header>
+<!-- Contenido principal de la página -->
+<main>
+ <!-- Contenido principal -->
+  <div class="container-fluid">
+    <!-- Filas de tarjetas de productos -->
+    <section>
+    <div class="row mx-1 my-1 px-1 py-1 gx-4 gy-4">
+      <!-- Tarjeta de producto -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card text-bg-light h-100" style="width: 100%;">
+           <!-- Imagen del producto -->
+        <img src="assets/img/1cepillo para perros Azul.jpg" class="card-img-top" alt="cepillo azul">
+        <div class="card-body">
+          <!-- Título del producto -->
+          <h5 class="card-title titulo">Cepillo deslizante de autolimpieza para perros y gatos</h5>
+           <!-- Subtítulo del producto -->
+          <h6 class="card-subtitle mb-2 text-black-50 subtitulo">Swihaux</h6>
+          <!-- Ubicación del producto -->
+          <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 9191 Avenida Vitacura, Chile</p>
+          <hr class="my-2">
+           <!-- Precio y descuento del producto -->
+          <div class="row">
+            <div class="col text-end d-inline-flex justify-content-end align-items-center">
+              <p class="lead1 text-black-50 me-4 precio">US$ 8.99</p>
+              <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 6.99</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="card text-bg-light h-100" style="width: 100%;">
+      <img src="assets/img/2molinillo de uñas blanco con negro.jpg" class="card-img-top" alt="molinillo de uñas">
+      <div class="card-body">
+        <h5 class="card-title titulo">Molinillo de Uñas</h5>
+        <h6 class="card-subtitle mb-2 text-black-50 subtitulo">LuckyTail</h6>
+        <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 777 Jesse Pinkman, Chile</p>
+        <hr class="my-2">
+        <div class="row">
+          <div class="col text-end d-inline-flex justify-content-end align-items-center">
+            <p class="lead1 text-black-50 me-4 precio">US$ 39.95</p>
+            <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 36.99</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-4">
+    <div class="card text-bg-light h-100" style="width: 100%;">
+    <img src="assets/img/3Comunicador para mascotas.webp" class="card-img-top" alt="comunicador para mascotas">
+    <div class="card-body">
+      <h5 class="card-title titulo">Juego de Seis botones de entrenamiento para perros</h5>
+      <h6 class="card-subtitle mb-2 text-black-50 subtitulo">Zumbador de entrenamiento de mascotas grabable por voz de 30 segundos, botones de comunicacion para perros y gatos </h6>
+      <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 1342 Blanco Encalada, Chile</p>
+      <hr class="my-2">
+      <div class="row">
+        <div class="col text-end d-inline-flex justify-content-end align-items-center">
+          <p class="lead1 text-black-50 me-4 precio">US$ 39.99</p>
+          <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 31.99</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card text-bg-light h-100" style="width: 100%;">
+  <img src="assets/img/4nestroad arnes para perros.jpg" class="card-img-top" alt="arnes para perro">
+  <div class="card-body">
+    <h5 class="card-title titulo">Arnes para perros</h5>
+    <h6 class="card-subtitle mb-2 text-black-50 subtitulo">NestRoad</h6>
+    <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 1071 Miguel Claro, Chile</p>
+    <hr class="my-2">
+    <div class="row">
+      <div class="col text-end d-inline-flex justify-content-end align-items-center">
+        <p class="lead1 text-black-50 me-4 precio">US$ 18.99</p>
+        <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 14.99</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card text-bg-light h-100" style="width: 100%;">
+  <img src="assets/img/5bolsas para excrementos de perros.jpg" class="card-img-top" alt="bolsas para excremento mascotas">
+  <div class="card-body">
+    <h5 class="card-title titulo">Bolsas de excremento fuertes y resistentes a prueba de fugas para perros, con aroma de amapola</h5>
+    <h6 class="card-subtitle mb-2 text-black-50 subtitulo">WowFlash</h6>
+    <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 133  El Tranque, Chile</p>
+    <hr class="my-2">
+    <div class="row">
+      <div class="col text-end d-inline-flex justify-content-end align-items-center">
+        <p class="lead1 text-black-50 me-4 precio">US$ 7.99</p>
+        <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 5.99</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card text-bg-light h-100" style="width: 100%;">
+  <img src="assets/img/6escalera para perros.jpg" class="card-img-top" alt="escalera para perros">
+  <div class="card-body">
+    <h5 class="card-title titulo">Escalera para Perros</h5>
+    <h6 class="card-subtitle mb-2 text-black-50 subtitulo">Cozylux</h6>
+    <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 742 Puente Alto, Chile</p>
+    <hr class="my-2">
+    <div class="row">
+      <div class="col text-end d-inline-flex justify-content-end align-items-center">
+        <p class="lead1 text-black-50 me-4 precio">US$ 43.99</p>
+        <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 37.99</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card text-bg-light h-100" style="width: 100%;">
+  <img src="assets/img/7almohadillas para perros.jpg" class="card-img-top" alt="almohadilla para perros">
+  <div class="card-body">
+    <h5 class="card-title titulo">Cincuenta almohadillas para cachorros, 48% certificadas por USDA a base de plantas, sin perfume, almohadillas de entrenamiento a prueba</h5>
+    <h6 class="card-subtitle mb-2 text-black-50 subtitulo">Pet N Pet</h6>
+    <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 108 Santiago Centro, Chile</p>
+    <hr class="my-2">
+    <div class="row">
+      <div class="col text-end d-inline-flex justify-content-end align-items-center">
+        <p class="lead1 text-black-50 me-4 precio">US$ 19.99</p>
+        <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 11.99</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card text-bg-light h-100" style="width: 100%;">
+  <img src="assets/img/8Delomo removedor de pelos mascotas.jpg" class="card-img-top" alt="removedor de pelos mascotas">
+  <div class="card-body">
+    <h5 class="card-title titulo">Removedor de pelo de gatos y perros para sofá, muebles, alfombras, asiento de coche, tipo: Rodillo</h5>
+    <h6 class="card-subtitle mb-2 text-black-50 subtitulo">Delomo</h6>
+    <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 234 Las Condes, Chile</p>
+    <hr class="my-2">
+    <div class="row">
+      <div class="col text-end d-inline-flex justify-content-end align-items-center">
+        <p class="lead1 text-black-50 me-4 precio">US$ 24.99</p>
+        <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 19.99</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+  <div class="card text-bg-light h-100" style="width: 100%;">
+  <img src="assets/img/9HOP cepillo para pelo corto.jpg" class="card-img-top" alt="cepillo pelo corto mascotas">
+  <div class="card-body">
+    <h5 class="card-title titulo">Cepillo de aseo para pelos cortos, desenredar y desprender pelos para mascotas, de dos caras, elimina la suciedad y el pelo suelto.</h5>
+    <h6 class="card-subtitle mb-2 text-black-50 subtitulo">HOP Home of Paws</h6>
+    <p class="card-text1 text-black-50 ubicacion"><i class="bi bi-geo-alt-fill"></i> 382 Avenida Vitacura, Chile</p>
+    <hr class="my-2">
+    <div class="row">
+      <div class="col text-end d-inline-flex justify-content-end align-items-center">
+        <p class="lead1 text-black-50 me-4 precio">US$ 29.99</p>
+        <p class="lead text-success mb-3 pb-1 fw-bold descuento"><strong>US$ 19.99</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="container-fluid">
+  <!-- Formulario para recibir cupones -->
+  <div class="row mx-1 my-1 px-1 py-1 gx-4 gy-4">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <form class="formulario bg-success d-flex flex-column mx-0 my-0 px-0 py-0">
+        <!-- Leyenda del formulario -->
+        <legend class="leyenda text-center text-light fw-semibold mt-4">Recibe cupones en tu correo</legend>
+        <!-- Campo de nombre -->
+          <label for="name" class="name"></label>
+          <input type="text" class="form-name mx-5 mb-1" id="name" placeholder="Nombre">
+           <!-- Campo de correo electrónico -->
+          <label for="email" class="email"></label>
+          <input type="email" class="form-email mx-5 mb-0" id="email" placeholder="Correo Electrónico">
+          <!-- Texto de ayuda -->
+          <div id="help" class="form-text ms-2 text-light">We'll never share your data with anyone else.</div>
+          <!-- Botón de envío -->
+          <div class="ms-5 d-inline-flex justify-content-center">
+        <button type="submit" class="boton btn btn-light px-4 py-1 mb-3 me-5">Enviar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+</section>
+</div>
+</main>
+   <!-- Pie de página -->
+  <div class="row mx-1 my-0 px-1 py-1 gx-4 gy-1">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <footer class="text-center">
+        <!-- Logo del pie de página -->
+        <img src="assets/img/logo-black.png" alt="cuppon color oscuro" width="82px" height="24px">
+        <!-- Texto de derechos de autor -->
+        <p class="derechos mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 14 20">
+          <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"/>
+        </svg> 2018 Cuppon Latam. Todos los derechos reservados</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

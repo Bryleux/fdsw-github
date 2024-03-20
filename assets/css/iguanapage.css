@@ -1,0 +1,18 @@
+body{
+  border: solid 1px black;
+  overflow-x: hidden;
+}
+
+@font-face{
+  font-family: 'Raleway';
+  src:url(/Raleway/Raleway.ttf);
+  font-weight: normal;
+}
+
+body{
+  font-family: 'Raleway';
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
