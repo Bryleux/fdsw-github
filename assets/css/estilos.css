@@ -11,6 +11,10 @@ body {
   background-position: left;
 }
 
+.botones {
+  text-decoration: none;
+}
+
 /* Estilos de párrafo con borde */
 .parrafo {
   font-size: 18px;
